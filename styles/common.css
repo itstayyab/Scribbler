@@ -1,0 +1,34 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: 250vh 100vh;;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+#logo
+{
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: xx-large;
+
+}
+#subheading
+{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.btn
+{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
