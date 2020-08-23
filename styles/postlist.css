@@ -1,0 +1,245 @@
+body {
+    background-color: #ffeedd;
+    background-size: 245vh 100vh;
+    ;
+}
+
+.frm {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#fbt {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    background-color: #66cc66;
+    color: white;
+    border: 0;
+    font: bold;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cross {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #8c8c8c;
+    size: 20px;
+}
+
+#sign {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 360px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: 0;
+    height: 25px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#logo {
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: xx-large;
+
+}
+
+#subheading {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.containerone {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-transition-duration: 0.3s;
+
+}
+
+.boxone:hover,
+.boxone:focus,
+.boxone:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.user {
+    display: flex;
+    background-color: white;
+    width: 140px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.post {
+    background-color: #e6e6e6;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.innerhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.headone {
+    font-weight: bold;
+    color: #8c8c8c;
+    margin-left: 10px;
+}
+
+.trash {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.username {
+    margin-left: 5px;
+    ;
+    margin-right: 5px;
+    color: #8c8c8c;
+    font-weight: 800;
+}
+
+.exone {
+    position: relative;
+    left: 90%;
+    color: #8c8c8c;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.para {
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#dialogbox {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    z-index: 10;
+    top: 40%;
+    left: 40%;
+
+}
+
+#dialogoverlay {
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    width: 100%;
+    z-index: 10;
+}
+
+#buttonbox {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#delete {
+    background-color: green;
+    color: white;
+    padding: 10px 30px 10px;
+    border: 0;
+    margin: 20px 5px 5px 5px;
+
+}
+
+#dialogboxhead {
+    margin: 20px 5px 5px 5px;
+}
+
+#cancel {
+    background-color: red;
+    color: white;
+    padding: 10px 30px 10px;
+    border: 0;
+    margin: 20px 5px 5px 5px;
+}
