@@ -70,3 +70,36 @@ function closeBox() {
     document.getElementById('posts').innerHTML = pr;
 }
 
+
+function Create() {
+    // this will open form to create posts
+    var p = '<form id="newpost">' +
+        '<div class="box">' +
+        '<p id="pen">Pen Your Post</p>' +
+        '<i class="fa fa-times" id="cross" onclick="closeBox()"></i>' +
+        '</div>' +
+        '<div>' + '<hr class="frm">' + '</div>' +
+
+
+        '<label class="frm">Title</label>' +
+        '<input type="text" placeholder="Enter title of your post" required>' +
+        '<label class="frm">Contents</label>' +
+        '<textarea name="" cols="30" rows="10" class="frm" placeholder="Enter the contents of your post" required></textarea>' +
+
+        '<div id="btn-newpost">' +
+        '<button id="btn-create" >Create</button>' +
+        '</div>' +
+
+
+        '</form>';
+
+    document.getElementById('posts').innerHTML = '';
+
+    document.getElementById('main').innerHTML = p;
+}
+function loadPage() {
+    //this will open a page for that post after extending
+    window.location = "html/postslist.html";
+
+
+}
