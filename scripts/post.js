@@ -105,8 +105,4 @@ function comments() {
 
     if (pr != '')
         document.getElementById('comment').innerHTML += '<p class="comment-add">' + pr + '</p>'
-
-
-
 }
-
