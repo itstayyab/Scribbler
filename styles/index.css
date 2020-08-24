@@ -1,9 +1,11 @@
+/* sets the background image for index.html */
 body {
     background-image: url(../images/background.jpg);
     background-size: 250vh 100vh;
     ;
 }
 
+/* This sets contain class as flex */
 .contain {
     display: flex;
     flex-direction: row;
@@ -15,6 +17,7 @@ body {
     text-align: center;
 }
 
+/* This sets post button style and color */
 .btn-post {
     background-color: orange;
     color: black;
@@ -26,6 +29,7 @@ body {
 
 }
 
+/* This sets form style and color */
 form {
     background-color: white;
     display: flex;
@@ -36,6 +40,7 @@ form {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets main as flex and class style and color */
 #main {
     display: flex;
     flex-direction: column;
@@ -43,6 +48,7 @@ form {
     align-items: center;
 }
 
+/* This sets input tag style and color */
 input {
     margin-top: 5px;
     margin-bottom: 16px;
@@ -55,12 +61,13 @@ input {
 
 }
 
-
+/* This sets form style and color */
 .frm {
     margin-left: 15px;
     margin-right: 15px;
 }
 
+/* This sets form button style and color */
 #fbt {
     margin-top: 15px;
     margin-bottom: 25px;
@@ -75,6 +82,7 @@ input {
 
 }
 
+/* This sets signin box style and color */
 .box {
     display: flex;
     flex-direction: row;
@@ -82,6 +90,7 @@ input {
     align-items: center;
 }
 
+/* This sets close button style and color */
 #cross {
     margin-left: 15px;
     margin-right: 15px;
@@ -89,6 +98,7 @@ input {
     size: 20px;
 }
 
+/* This sets signin class style and color */
 #sign {
     background-color: white;
     display: flex;
@@ -99,6 +109,7 @@ input {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets create post button style and color */
 #create {
     background-color: white;
     display: flex;
@@ -110,6 +121,7 @@ input {
 
 }
 
+/* This sets create button style and color */
 #btn-create {
     margin-top: 16px;
     margin-bottom: 25px;
@@ -124,6 +136,7 @@ input {
     font-weight: bold;
 }
 
+/* This sets textarea tag style and color */
 textarea {
     margin-top: 5px;
     margin-bottom: 16px;
@@ -136,6 +149,7 @@ textarea {
     height: 230px;
 }
 
+/* This sets new post style and color */
 #newpost {
     background-color: white;
     display: flex;
@@ -147,6 +161,7 @@ textarea {
     padding-top: initial;
 }
 
+/* This sets new post button style and color */
 #btn-newpost {
     display: flex;
     flex-direction: column;
@@ -154,6 +169,7 @@ textarea {
     align-items: center;
 }
 
+/* This sets pen style and color */
 #pen {
     margin-left: 15px;
     margin-right: 15px;

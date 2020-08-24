@@ -1,14 +1,17 @@
+/* This sets background for postlist.html */
 body {
     background-color: #ffeedd;
     background-size: 245vh 100vh;
     ;
 }
 
+/* This sets form style and color */
 .frm {
     margin-left: 15px;
     margin-right: 15px;
 }
 
+/* This sets form button style and color */
 #fbt {
     margin-top: 15px;
     margin-bottom: 25px;
@@ -23,6 +26,7 @@ body {
 
 }
 
+/* This sets signin box style and color */
 .box {
     display: flex;
     flex-direction: row;
@@ -30,6 +34,7 @@ body {
     align-items: center;
 }
 
+/* This sets close button style and color */
 #cross {
     margin-left: 15px;
     margin-right: 15px;
@@ -37,6 +42,7 @@ body {
     size: 20px;
 }
 
+/* This sets signin class style and color */
 #sign {
     background-color: white;
     display: flex;
@@ -47,6 +53,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets input tag style and color */
 input {
     margin-top: 5px;
     margin-bottom: 16px;
@@ -58,6 +65,7 @@ input {
     height: 25px;
 }
 
+/* This sets form style and color */
 form {
     background-color: white;
     display: flex;
@@ -68,6 +76,7 @@ form {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets contain class as flex */
 .container {
     display: flex;
     flex-direction: row;
@@ -75,6 +84,7 @@ form {
 
 }
 
+/* This sets Logo style and color */
 #logo {
     font-family: 'Montez', cursive;
     color: blue;
@@ -82,10 +92,12 @@ form {
 
 }
 
+/* This sets Subheading style and color */
 #subheading {
     font-family: 'Ubuntu Mono', monospace;
 }
 
+/* This sets button style and color */
 .btn {
     background-color: blue;
     color: white;
@@ -97,6 +109,7 @@ form {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets container one style and color */
 .containerone {
 
     display: flex;
@@ -106,6 +119,7 @@ form {
     flex-wrap: wrap;
 }
 
+/* This sets box one style and color */
 .boxone {
     display: flex;
     flex-direction: row;
@@ -128,6 +142,7 @@ form {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+/* This sets user class style and color */
 .user {
     display: flex;
     background-color: white;
@@ -137,6 +152,7 @@ form {
     border-bottom-left-radius: 15px;
 }
 
+/* This sets post class style and color */
 .post {
     background-color: #e6e6e6;
     border-top-right-radius: 15px;
@@ -147,6 +163,7 @@ form {
 
 }
 
+/* This sets inerheading style and color */
 .innerhead {
     display: flex;
     flex-direction: row;
@@ -155,12 +172,14 @@ form {
 
 }
 
+
 .headone {
     font-weight: bold;
     color: #8c8c8c;
     margin-left: 10px;
 }
 
+/* This sets trash icon style and color */
 .trash {
     margin-top: 20px;
     margin-right: 20px;
@@ -169,6 +188,7 @@ form {
 
 }
 
+/* This sets username  style and color */
 .username {
     margin-left: 5px;
     ;
@@ -215,6 +235,7 @@ form {
     z-index: 10;
 }
 
+/* This sets  button box style and color */
 #buttonbox {
     display: none;
     display: flex;
@@ -223,6 +244,7 @@ form {
     align-items: flex-start;
 }
 
+/* This sets  delete icon style and color */
 #delete {
     background-color: green;
     color: white;
@@ -236,6 +258,7 @@ form {
     margin: 20px 5px 5px 5px;
 }
 
+/* This sets cancel button  style and color */
 #cancel {
     background-color: red;
     color: white;

@@ -1,13 +1,15 @@
-/* this is for body  */
+/* This sets background for posts.html  */
 body {
     background-size: 245vh 100vh;
 }
 
+/* This sets form style and color */
 .frm {
     margin-left: 15px;
     margin-right: 15px;
 }
 
+/* This sets form button style and color */
 #fbt {
     margin-top: 15px;
     margin-bottom: 25px;
@@ -22,6 +24,7 @@ body {
 
 }
 
+/* This sets signin box style and color */
 .box {
     display: flex;
     flex-direction: row;
@@ -29,6 +32,7 @@ body {
     align-items: center;
 }
 
+/* This sets close button style and color */
 #cross {
     margin-left: 15px;
     margin-right: 15px;
@@ -36,6 +40,7 @@ body {
     size: 20px;
 }
 
+/* This sets signin class style and color */
 #sign {
     background-color: white;
     display: flex;
@@ -46,6 +51,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* This sets input tag style and color */
 input {
     margin-top: 5px;
     margin-bottom: 16px;
@@ -57,6 +63,7 @@ input {
     height: 25px;
 }
 
+/* This sets form style and color */
 form {
     background-color: white;
     display: flex;
@@ -67,7 +74,7 @@ form {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* this is for header in which define driect to put elements  */
+/* This sets contain class as flex */
 .container {
     display: flex;
     flex-direction: row;
@@ -75,7 +82,7 @@ form {
 
 }
 
-/* it is header word Scribbler */
+/* This sets Logo style and color */
 #logo {
     font-family: 'Montez', cursive;
     color: blue;
@@ -83,12 +90,12 @@ form {
 
 }
 
-/* this is for tagline of web  */
+/* This sets Subheading style and color */
 #subheading {
     font-family: 'Ubuntu Mono', monospace;
 }
 
-/* this is for button signup and sign in  */
+/* This sets button style and color */
 .btn {
     background-color: blue;
     color: white;
@@ -100,9 +107,6 @@ form {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* textarea {
-
-} */
 
 /* this is class of div in which the post header and post will be there */
 .posts {
@@ -124,6 +128,7 @@ form {
 
 }
 
+/* This sets heading style and color */
 #heading {
 
     border-color: Transparent;
@@ -139,12 +144,14 @@ form {
 
 }
 
+/* This sets nauthor style and color */
 #author {
     font-family: 'Sacramento', cursive;
     font-size: x-large;
     font-weight: 530;
 }
 
+/* This sets edit button style and color */
 .edit {
     border: 0;
     background-color: #ff3355;
@@ -158,7 +165,7 @@ form {
 
 }
 
-
+/* This sets content class style and color */
 .content {
 
     width: 180vh;
@@ -172,6 +179,7 @@ form {
 
 }
 
+/* This sets like button style and color */
 #like {
     display: flex;
     flex-direction: column;
@@ -180,12 +188,14 @@ form {
     width: 180vh;
 }
 
+/* This sets comment container style and color */
 .commentcontainer {
     width: 180vh;
     align-items: flex-start;
 
 }
 
+/* This sets comment box style and color */
 #commentbox {
     width: 60vh;
     height: 10vh;
@@ -194,6 +204,7 @@ form {
 
 }
 
+/* This sets comment style and color */
 #comment {
 
     align-items: flex-start;
@@ -205,6 +216,7 @@ form {
     margin-top: 15px;
 }
 
+/* This sets comment add button style and color */
 .comment-add {
 
     border: 0;

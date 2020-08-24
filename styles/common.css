@@ -1,13 +1,16 @@
+/* This sets text decoration for anchar tag */
 a {
     text-decoration: none;
 }
 
+/* This sets contain class as flex */
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/* This sets Logo style and color */
 #logo {
     font-family: 'Montez', cursive;
     color: blue;
@@ -15,10 +18,12 @@ a {
 
 }
 
+/* This sets Subheading style and color */
 #subheading {
     font-family: 'Ubuntu Mono', monospace;
 }
 
+/* This sets button style and color */
 .btn {
     background-color: blue;
     color: white;
