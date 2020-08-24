@@ -1,11 +1,14 @@
+// Create post function
 function createPost() {
     document.getElementById("createPost-form").reset();
 }
 
-function loadpostslist() {
+// This function redirect to postlist html
+function loadPage() {
     window.location.href = "html/postslist.html";
 }
 
+// This Function generate signup box
 function Signup() {
 
     var p = '<form>' +
@@ -30,6 +33,7 @@ function Signup() {
     document.getElementById('main').innerHTML = p;
 }
 
+// This post generate signing box
 function Sign() {
     // this is for sign in
     var p = '<form id="sign">' +
@@ -56,6 +60,7 @@ function Sign() {
     document.getElementById('main').innerHTML = p;
 }
 
+// This function close the login box and inject all post and create post button
 function closeBox() {
 
     var pr = '<div>' +
@@ -70,7 +75,7 @@ function closeBox() {
     document.getElementById('posts').innerHTML = pr;
 }
 
-
+// This function generate create post box.
 function Create() {
     // this will open form to create posts
     var p = '<form id="newpost">' +
@@ -96,8 +101,4 @@ function Create() {
     document.getElementById('posts').innerHTML = '';
 
     document.getElementById('main').innerHTML = p;
-}
-function loadPage() {
-    //this will open a page for that post after extending
-    window.location = "html/postslist.html";
 }

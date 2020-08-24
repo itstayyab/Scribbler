@@ -1,3 +1,4 @@
+// This function generate signup box
 function Signup() {
 
     var p = '<form>' +
@@ -22,8 +23,9 @@ function Signup() {
     document.getElementById('posts').innerHTML = p;
 }
 
+// This function generate sign box
 function Sign() {
-    // this is for sign in
+    
     var p = '<form id="sign">' +
         '<div class="box">' +
         '<p class="frm"> Welcome Back!</p>' +
@@ -48,12 +50,13 @@ function Sign() {
     document.getElementById('posts').innerHTML = p;
 }
 
+// This function redirect it to postlist page.
 function closeBox() {
     location.href = "../html/postslist.html";
 }
 
+// This function will increatse the likes count
 var count = 0;
-
 function likes() {
     count++;
     var para = count + ' person likes this post!';
@@ -61,6 +64,7 @@ function likes() {
     document.getElementById('liked').innerHTML = 'Liked';
 }
 
+// This fuction is used to update the Edit dialog
 function editor() {
     var a = '<button class="edit" onclick="save()">' +
         ' Save ' +
@@ -70,7 +74,6 @@ function editor() {
         '</button>';
 
     document.getElementById('edit').innerHTML = a;
-    // var b= document.createElement(document.getElementById('postname'));
     document.getElementById('heading').readOnly = false;
     document.getElementById('contentbox').readOnly = false;
 
@@ -99,6 +102,7 @@ function save() {
     document.getElementById('contentbox').readOnly = true;
 }
 
+// This function is used to add comment on post.
 function comments() {
     var pr = document.getElementById('commentbox').value;
     document.getElementById('commentbox').value = '';
