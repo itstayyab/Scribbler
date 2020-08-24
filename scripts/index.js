@@ -26,7 +26,7 @@ function Signup() {
         '</form>';
 
     document.getElementById('posts').innerHTML = '';
-    
+
     document.getElementById('main').innerHTML = p;
 }
 
@@ -57,14 +57,14 @@ function Sign() {
 }
 
 function closeBox() {
-    
+
     var pr = '<div>' +
         '<button class="btn-post" onclick="loadPage()">All Posts</button>' +
         '</div>' +
         '<div>' +
         '<button class="btn-post" onclick="Create()">Create Post</button>' +
         '</div>';
-    
+
     document.getElementById('main').innerHTML = '';
 
     document.getElementById('posts').innerHTML = pr;
@@ -100,6 +100,4 @@ function Create() {
 function loadPage() {
     //this will open a page for that post after extending
     window.location = "html/postslist.html";
-
-
 }
