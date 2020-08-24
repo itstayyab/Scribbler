@@ -1,3 +1,4 @@
+// This function is used to generate signup box
 function Signup() {
 
     var p = '<form>' +
@@ -22,6 +23,7 @@ function Signup() {
     document.getElementById('posts').innerHTML = p;
 }
 
+// This function is used to generate the Sigin box
 function Sign() {
     // this is for sign in
     var p = '<form id="sign">' +
@@ -48,14 +50,17 @@ function Sign() {
     document.getElementById('posts').innerHTML = p;
 }
 
+// This function is used to cloes the login dialod and redirect to post list
 function closeBox() {
     location.href = "../html/postslist.html";
 }
 
+// This function redirect user to post page
 function post() {
     location.href = "../html/post.html";
 }
 
+// This function is used to delete the post
 function deletefun() {
 
     this.render = function (id) {
